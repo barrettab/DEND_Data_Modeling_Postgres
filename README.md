@@ -93,10 +93,10 @@ Sample Record :
 
 ## How to run (examples)
 
-To build the schema(or to drop the tables and rebuild them) 
+To build the schema(or to drop the tables and rebuild them): <br>
 ```python create_tables.py```
 
-To execute the ETL to load data into the tables:
+To execute the ETL to load data into the tables: <br>
 ```python etl.py```
 
 Seeing what is in the sql db <br>
