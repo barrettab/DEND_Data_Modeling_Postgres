@@ -27,16 +27,16 @@ Sample Record :
 ## Schema 
 ### Fact Table(s)
 - songplays
-•	songplay_id SERIAL,
-•	start_time TIMESTAMP NOT NULL,
-•	user_id INT NOT NULL,
-•	level VARCHAR NOT NULL,
-•	song_id VARCHAR(18),
-•	artist_id VARCHAR(18),
-•	session_id INT NOT NULL,
-•	location VARCHAR NOT NULL,
-•	user_agent VARCHAR NOT NULL,
-•	PRIMARY KEY (songplay_id)
+    - songplay_id SERIAL,
+    - start_time TIMESTAMP NOT NULL,
+    - user_id INT NOT NULL,
+    - level VARCHAR NOT NULL,
+    - song_id VARCHAR(18),
+    - artist_id VARCHAR(18),
+    - session_id INT NOT NULL,
+    - location VARCHAR NOT NULL,
+    - user_agent VARCHAR NOT NULL,
+    - PRIMARY KEY (songplay_id)
 
 ### Dimension Table(s)
 - users
