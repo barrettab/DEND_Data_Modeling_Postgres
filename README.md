@@ -99,7 +99,6 @@ To build the schema(or to drop the tables and rebuild them)
 To execute the ETL to load data into the tables:
 ```python etl.py```
 
-Seeing what is in the sql db
-```%sql SELECT * FROM users LIMIT 5;```
-```%sql SELECT * FROM songplays LIMIT 5;```
-
+Seeing what is in the sql db <br>
+```%sql SELECT * FROM users LIMIT 5;``` <br>
+```%sql SELECT * FROM songplays LIMIT 5;```<br>
