@@ -93,12 +93,13 @@ Sample Record :
 
 ## How to run (examples)
 
-To build the schema(or to drop the tables and rebuild them) python create_tables.py
+To build the schema(or to drop the tables and rebuild them) 
+```python create_tables.py```
 
 To execute the ETL to load data into the tables:
-python etl.py
+```python etl.py```
 
 Seeing what is in the sql db
-"%sql SELECT * FROM users LIMIT 5;"
-"%sql SELECT * FROM songplays LIMIT 5;"
+```%sql SELECT * FROM users LIMIT 5;```
+```%sql SELECT * FROM songplays LIMIT 5;```
 
